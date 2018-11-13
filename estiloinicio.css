@@ -1,0 +1,119 @@
+body{ 
+	padding: 3px;
+	width: auto ;
+	height: 100%;
+	background-color: #92c40b;
+	margin: auto;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+h1{
+	text-align:center;
+}
+section{ 
+	padding: 10px;
+	border: 2px solid;
+	margin: 1px;
+	height: 100%;
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Indie Flower';
+}
+
+header{
+	margin: 1px;
+	border: 2px solid;
+	width: auto;
+	height: 20%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	font-family: 'Indie Flower';
+}
+
+header ul{
+	display: flex;
+	list-style: none;
+	width: auto;
+}
+
+header ul li a{
+	display: block;
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+	width:auto;
+}
+
+header ul ul{
+	border: 1px solid;
+	padding: 10px;
+	position: absolute;
+	width: auto;
+	top:385px;
+	display: block;
+	background: #fff;
+	transform: translateX(60%);
+	opacity: 0;
+	transition: all .6s;
+}
+
+header ul li:hover ul{
+	opacity: 1;
+	transform: translateX(0%);
+	width: auto;
+}
+
+.simulalink:hover{
+	text-decoration: underline
+	border:1px solid green;
+}
+
+
+.twitter-timeline{
+	display: block
+	margin left;
+}
+
+.footer{
+	display: block;
+	bottom:;
+}
+
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+#infobox3 p {
+    line-height:58px;
+    font-size:12px;
+    text-align:center;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+
+footer {
+  	text-align: center;
+ 	width: auto; 	
+ 	color: black;
+  	
+}
